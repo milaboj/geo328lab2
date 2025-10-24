@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>See Also</title>
+
+    <!-- Including the main.css file for styling -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Including the Font Awesome CSS library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <!-- Links to different sections -->
+        <a href="index.html">What Is Mead?</a>
+        <a href="section1.html">Brewing Guide</a>
+        <a href="section2.html">Recipes</a>
+
+        <!-- Active link pointing to the see_also.html page -->
+        <a class="active" href="see_also.html">See Also</a>
+
+        <a href="references.html">References</a>
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <!-- See Also section content -->
+        
+        <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="img/hydromel-epices-erables-1400x788-1.webp" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="img/making-mead-the-easy-and-tasty-ancient-honey-wine.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="img/meadcellar.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="img/Mead_By_Bearded_Viking_Mead_Co_499ff8c7-9138-452a-891b-5b415e4318e0.webp" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </div>
+
+    <!-- Including the main.js file for JavaScript functionality -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
